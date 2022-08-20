@@ -26,8 +26,8 @@
 
  const spotifyApi = new SpotifyWebApi({
    redirectUri: 'http://localhost:8888/callback',
-   clientId: 'c3ad71a9338440babfe990c4f8aafdb7',
-   clientSecret: '14ea9b22d9fd4b2f8d8d8515bada0c2b'
+   clientId: 'your-client-id',
+   clientSecret: 'your-client-secret-id'
  });
  
  const app = express();
